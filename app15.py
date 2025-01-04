@@ -5,7 +5,7 @@ from langchain_groq import ChatGroq
 from crewai import Agent, Task, Crew, Process
 
 # Set the Groq API key
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = ""
 
 llm = ChatGroq(
     api_key=os.environ["GROQ_API_KEY"],
