@@ -66,7 +66,7 @@ app.post('/respond', async (req, res) => {
 });
 
 const getGroqChatCompletion = async (convo) => {
-    const groq = new Groq({ apiKey: "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" });
+    const groq = new Groq({ apiKey: "" });
 
     const apiResponse = await groq.chat.completions.create({
         messages: [
